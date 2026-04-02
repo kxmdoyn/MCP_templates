@@ -1,0 +1,24 @@
+# Core
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+flask>=3.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# DB
+sqlalchemy>=2.0.0
+aiosqlite>=0.20.0          # SQLite async (PostgreSQL 사용 시 asyncpg로 교체)
+
+# Scheduler
+apscheduler>=3.10.0
+
+# LangGraph
+langgraph>=0.1.0
+langchain>=0.1.0
+
+# TODO: 도메인별 추가 패키지
+# python-docx>=1.1.0       # DOCX 생성
+# influxdb-client>=1.40.0  # InfluxDB
+# asyncpg>=0.29.0          # PostgreSQL async
